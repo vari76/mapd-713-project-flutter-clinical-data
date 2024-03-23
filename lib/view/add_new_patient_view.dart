@@ -45,6 +45,19 @@ class AddNewPatientView extends StatelessWidget with ValidatorMixin {
                       ),
                       FormSpacer(),
                       FormLabel(
+                        label: 'Second name',
+                        isRequired: true,
+                      ),
+                      LabelSpacer(),
+                      CustomFormTextField(
+                        controller: vm.firstName,
+                        validator: (value) =>
+                            requiredValidation(value, "First name is required"),
+                        hint: 'Enter Second name',
+                        prefixIcon: const Icon(FontAwesomeIcons.user),
+                      ),
+                      LabelSpacer(),
+                      FormLabel(
                         label: 'Last name',
                         isRequired: true,
                       ),
