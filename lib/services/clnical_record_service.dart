@@ -5,7 +5,7 @@ import 'package:http/http.dart' as http;
 import 'package:mapd722_group2_project/models/clinical_records_model.dart';
 
 class ClincalRecordService {
-  static const String baseUrl = "http://127.0.0.1:6000";
+  static const String baseUrl = "http://127.0.0.1:4000";
 
   static Future<List<ClinicalRecordsModel>> getClincalRecords({
     required String patientId,
