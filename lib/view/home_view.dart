@@ -105,7 +105,7 @@ class _HomeViewState extends State<HomeView> {
                             },
                             child: Chip(
                               label: Text(
-                                'Critical conditions',
+                                'Critical Conditions',
                                 style: TextStyle(
                                   color: vm.selectedFilterIndex == 1
                                       ? Colors.white
