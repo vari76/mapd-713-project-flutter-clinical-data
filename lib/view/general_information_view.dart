@@ -32,6 +32,8 @@ class _GeneralInformationViewState extends State<GeneralInformationView>
     vm.initialization(patientId: widget.patientId);
     super.initState();
   }
+  //update patient information
+  
 
   @override
   Widget build(BuildContext context) {
