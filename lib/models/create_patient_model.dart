@@ -9,7 +9,7 @@ CreatePatientModel createPatientModelFromJson(String str) =>
 
 String createPatientModelToJson(CreatePatientModel data) =>
     json.encode(data.toJson());
-
+//create patient  models
 class CreatePatientModel {
   CreatePatientModel({
     this.id,
